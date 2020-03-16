@@ -1,3 +1,3 @@
-interface  Payment {
-					public double payment (double amount);
+interface  Payment2 {
+					public void payment ();
 }

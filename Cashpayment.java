@@ -1,14 +1,8 @@
 
-public class Cashpayment implements Payment {
-			double bal;
-			
-			public Cashpayment(double bal) {
-				super();
-				this.bal = bal;
-			}
-
-			public double payment(double amount)
+public class Cashpayment implements Payment2 {
+		
+			public void payment()
 			{
-				return bal=bal-amount;
+				System.out.println("xxxxx");
 			}
 }
